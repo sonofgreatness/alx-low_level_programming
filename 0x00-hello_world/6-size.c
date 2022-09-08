@@ -22,15 +22,15 @@ main(void)
 
 
 
-	printf("Size of a char: %zu byte(s)\n", sizeof(charType));
+	fprintf(stderr,"Size of a char: %zu byte(s)\n", sizeof(charType));
 
-	printf("Size of an int: %zu byte(s)\n", sizeof(intType));
+	fprintf(stderr,"Size of an int: %zu byte(s)\n", sizeof(intType));
 
-	printf("Size of a long int: %zu byte(s)\n", sizeof(shortType));
+        fprintf(stderr,"Size of a long int: %zu byte(s)\n", sizeof(shortType));
 
-	printf("Size of a long long int: %zu byte(s)\n", sizeof(longType));
+	fprintf(stderr,"Size of a long long int: %zu byte(s)\n", sizeof(longType));
 
-	printf("Size of a  float: %zu byte(s)\n", sizeof(floatType));
+	fprintf(stderr,"Size of a  float: %zu byte(s)\n", sizeof(floatType));
 
 	return (0);
 
