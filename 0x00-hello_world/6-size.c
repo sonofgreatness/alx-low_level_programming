@@ -1,4 +1,4 @@
-nclude<stdio.h>
+#include<stdio.h>
 
 /*program description*/
 
