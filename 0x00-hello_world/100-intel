@@ -1,2 +1,2 @@
 #!/bin/bash
-gcc -S $CFILE -o ${FCILE/%.c/.s}
+gcc -S -masm=intel  $CFILE -o ${FCILE/%.c/.s}
