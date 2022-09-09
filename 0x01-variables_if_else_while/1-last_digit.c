@@ -11,7 +11,7 @@
 
 /* program to compare last digit of random
 
- number to 5  */
+ number to 5	*/
 
 int/* program entry point */
 
@@ -19,19 +19,16 @@ main(void)
 
 {
 
-	int n; 
-        int last_number; 
-              
+	int n;
+				int last_number;
+
 
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
-        if(n<0)
-       {
-	 n=-1*n;
-       }
+
 	 last_number = n%10;
 
-	if (last_number ==0)
+	if (last_number == 0)
 
 	{
 
@@ -39,7 +36,7 @@ main(void)
 
 	}
 
-	if (last_number<6 && last_number != 0)
+	if (last_number < 6 && last_number != 0)
 
 	{
 
@@ -47,10 +44,8 @@ main(void)
 
 	}
 
-	else if(last_number>5)
-
+	else if(last_number > 5)
 	{
-
 		printf("The last digit of %d is %d and is greater than 5\n",n,last_number);
 
 	}
