@@ -32,7 +32,7 @@ main(void)
 
 	{
 
-		printf("The last digit of %d is %d and is zero\n",n,last_number);
+		printf("Last digit of %d is %d and is zero\n",n,last_number);
 
 	}
 
@@ -40,13 +40,13 @@ main(void)
 
 	{
 
-		printf("The last digit of %d is %d and is less than 6 and not 0\n",n,last_number);
+		printf("Last digit of %d is %d and is less than 6 and not 0\n",n,last_number);
 
 	}
 
 	else if(last_number > 5)
 	{
-		printf("The last digit of %d is %d and is greater than 5\n",n,last_number);
+		printf("Last digit of %d is %d and is greater than 5\n",n,last_number);
 
 	}
 
