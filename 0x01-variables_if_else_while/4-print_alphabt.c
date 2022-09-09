@@ -10,11 +10,11 @@ main()
 {
 
 	int x;
-	for(x = 'a'; x <= 'z'; x++) /*jumps from 'A'( in order.*/
+	for (x = 'a'; x <= 'z'; x++) /*jumps from 'A'( in order.*/
 
 	{
 
-		if (x !='e' && x != 'q')
+		if (x != 'e' && x != 'q')
 
 
 		{
