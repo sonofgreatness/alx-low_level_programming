@@ -4,15 +4,14 @@
 
 int/*entry point of of program*/
 
- main()
+main(void)
 
 {
 
-			int x;
+		int x;
+		int y;
 
-					int y;
-
-		for (x = 'a'; x <= 'z'; x++) /*jumps from 'A'(65) to 'B'(66) to ... in order.*/
+		for (x = 'a'; x <= 'z'; x++) /*jumps from 'A'(65) to 'B'(66) to in order.*/
 
 		{
 
@@ -20,11 +19,11 @@ int/*entry point of of program*/
 
 		}
 
-		for (y ='A'; y <= 'Z'; y++)
+		for (y = 'A'; y <= 'Z'; y++)
 
 		{
 
-					putchar(y);
+			putchar(y);
 
 		}
 
