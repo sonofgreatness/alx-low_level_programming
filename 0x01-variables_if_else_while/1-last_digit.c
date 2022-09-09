@@ -1,0 +1,62 @@
+#include <stdlib.h>
+
+#include <stdio.h>
+
+
+
+#include<math.h>
+#include <time.h>
+
+
+
+/* program to compare last digit of random
+
+ number to 5  */
+
+int/* program entry point */
+
+main(void)
+
+{
+
+	int n; 
+        int last_number; 
+              
+
+	srand(time(0));
+	n = rand() - RAND_MAX / 2;
+        if(n<0)
+       {
+	 n=-1*n;
+       }
+	 last_number = n%10;
+
+	if (last_number ==0)
+
+	{
+
+		printf("The last digit of %d is %d and is zero\n",n,last_number);
+
+	}
+
+	if (last_number<6 && last_number != 0)
+
+	{
+
+		printf("The last digit of %d is %d and is less than 6 and not 0\n",n,last_number);
+
+	}
+
+	else if(last_number>5)
+
+	{
+
+		printf("The last digit of %d is %d and is greater than 5\n",n,last_number);
+
+	}
+
+
+
+		return (0);
+
+}
