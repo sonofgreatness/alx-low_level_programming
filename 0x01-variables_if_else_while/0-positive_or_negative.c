@@ -27,7 +27,7 @@ main(void)
 	}
 	else if (n > 0)
 
-       	{
+				{
 		printf("%d is positive\n", n);
 
 
