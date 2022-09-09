@@ -2,7 +2,7 @@
 
 /*This program prints letter of the alphabet*/
 
-int/*entry point of of program*/ 
+int/*entry point of of program*/
 
 main()
 
@@ -10,9 +10,9 @@ main()
 
 	int x;
 
-	for(x = 'z'; x >= 'a'; x--) /*jumps from 'z' to 'a' to.*/
+	for (x = 'z'; x >= 'a'; x--) /*jumps from 'z' to 'a' to.*/
 
-	{ 
+	{
 
 		putchar(x);
 
