@@ -33,7 +33,7 @@ main(void)
 
 	}
 	else
-	 {
+	{
 
 		printf("%d is negative\n", n);
 
