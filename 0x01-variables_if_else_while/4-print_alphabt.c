@@ -10,6 +10,7 @@ main()
 {
 
 	int x;
+
 	for (x = 'a'; x <= 'z'; x++) /*jumps from 'A'( in order.*/
 
 	{
