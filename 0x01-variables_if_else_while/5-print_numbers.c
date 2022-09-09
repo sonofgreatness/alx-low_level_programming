@@ -2,7 +2,7 @@
 
 /*This program prints letter of the alphabet*/
 
-int/*entry point of of program*/ 
+int/*entry point of of program*/
 
 main()
 
@@ -10,11 +10,10 @@ main()
 
 	int x;
 
-	for(x = 0; x <= 9; x++) /*jumps from 'A'(65) to 'B'(66) to ... in order.*/
+	for (x = 0; x <= 9; x++) /*jumps from 'A'(65) to 'B'(66)  in order.*/
 
-	{ 
-
-         printf("%d",x);
+	{
+		printf("%d", x);
 
 	}
 
