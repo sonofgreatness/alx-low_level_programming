@@ -28,15 +28,15 @@ main(void)
 
 	}
 
-	else if(n > 0)
-      
-       	{ 
+	else if (n > 0)
+
+       	{
 		printf("%d is positive\n",n);
 	}
 
 	else
 
-	{  
+	{
 
 		printf("%d is negative\n",n);
 
