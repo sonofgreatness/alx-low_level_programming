@@ -20,7 +20,7 @@ main(void)
 
 		for (y = 'a'; y <= 'f'; y++)
 
-		{   
+		{
 			putchar(y);
 
 		}
