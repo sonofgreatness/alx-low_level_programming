@@ -9,11 +9,11 @@
 
 
 
-/* program to compare last digit of random
+/*program to compare last digit of random
 
- number to 5	*/
+ number to 5*/
 
-int/* program entry point */
+int/*program entry point*/
 
 main(void)
 
@@ -55,3 +55,4 @@ main(void)
 		return (0);
 
 }
+
