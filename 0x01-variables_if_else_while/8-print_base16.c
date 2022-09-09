@@ -7,24 +7,22 @@ int /*program entry point*/
 main(void)
 
 {
+		int x;
+		int y;
 
-	    int x ;
-
-	        int y ;
-
-		for(x='A';x<='J';x++)/*print 0-9*/
+		for (x = 'A'; x <= 'J'; x++)/*print 0-9*/
 
 
 
 		{
 
-			    putchar((x%65) + '0' );
+			    putchar((x % 65) + '0');
 
 
 
 		}
 
-		for(y='a';y<='f';y++)
+		for (y = 'a'; y <= 'f'; y++)
 
 		{
 
