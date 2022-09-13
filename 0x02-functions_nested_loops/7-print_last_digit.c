@@ -6,10 +6,9 @@ print_last_digit(int n)
 
 	 int rn;
 
-	 int trnm;
 
-	  if (n < 0)
 
+	  if 
 	  {
 
 		  n = -1*n;
