@@ -8,19 +8,19 @@ int
 
 
 
-	if (islower(c))  
+	if (islower(c))
 
 	{
 
-		return 1;
+		return (1);
 
 	}
 
-	else 
+	else
 
 	{
 
-		return 0; 
+		return (0);
 
 	}
 
