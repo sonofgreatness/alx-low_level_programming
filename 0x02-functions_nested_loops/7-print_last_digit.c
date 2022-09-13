@@ -14,7 +14,7 @@ print_last_digit(int n)
 		  n = -1*n;
 	  }
 	  rn = n % 10;
-	  trnm = rn *10 + rn;
+	  trnm = rn*10+rn;
 	  return (trnm);
 
 }
