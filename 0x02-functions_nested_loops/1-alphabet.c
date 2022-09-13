@@ -2,9 +2,8 @@
 
 /*Program */
 
-void print_alphabet(void);
-
-int main(void)
+int/*main entry point of program */ 
+main(void)
 
 {
 
