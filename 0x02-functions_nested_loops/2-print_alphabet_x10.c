@@ -24,7 +24,7 @@ void/*print a -z 10 times */
 print_alphabet_x10(void)
 {
 int i = 10;
-while(i >= 1)
+while (i >= 1)
 {
 
 print_alphabet();
