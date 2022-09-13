@@ -7,7 +7,7 @@ times_table(void){
 	int i;
 
 	int j;
-
+	int ele; 
 	
 
 
@@ -20,12 +20,11 @@ times_table(void){
 
 		{
 
-			
+			ele = i*j
+			putchar(ele + '0');
+			putchar(', ');
+                                    
 
-			putchar(i*j + '0');
-			putchar(',');
-			putchar('\t');
-                                     
 		}
 
 		putchar('\n');
