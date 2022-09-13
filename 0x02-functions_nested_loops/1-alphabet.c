@@ -2,11 +2,13 @@
 
 /*Program */
 /*Print alphabet*/
-void  print_alphabet(void)
+void
+/*function prints letter ofthe  alphebet small caps
+*/print_alphabet(void)
 
 {
 
-int i; 
+int i;
 for (i = 'a'; i <= 'z'; i++)
 {
 
@@ -14,7 +16,7 @@ putchar(i);
 
 }
 
-putchar('\n'); 
+putchar('\n');
 
 }
 
