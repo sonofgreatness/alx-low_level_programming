@@ -28,6 +28,6 @@ while(i >= 1)
 {
 
 print_alphabet();
-
+i--;
 }
 }
