@@ -7,6 +7,7 @@ print_last_digit(int n)
 	 int rn;
 
 	 int trnm;
+
 	  if (n < 0)
 
 	  {
@@ -14,7 +15,7 @@ print_last_digit(int n)
 		  n = -1*n;
 	  }
 	  rn = n % 10;
-	  trnm = rn*10+rn;
+	  trnm = rn*10;
 	  return (trnm);
 
 }
