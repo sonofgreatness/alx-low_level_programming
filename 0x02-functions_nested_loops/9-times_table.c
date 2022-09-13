@@ -1,6 +1,6 @@
 #include<stdio.h>
 void/*prints times 9 table */
-_table(void){
+times_table(void){
 
 
 
