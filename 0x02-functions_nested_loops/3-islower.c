@@ -1,8 +1,7 @@
 #include<ctype.h>
 
-int
-
-/*function to check case of a letter*/_islower(int c)
+int/*function to check case of a letter*/
+_islower(int c)
 
 {
 
