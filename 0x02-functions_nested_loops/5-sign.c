@@ -21,7 +21,7 @@ int/*function to check case of a letter*/
 
 	}
 
-	else if (n < 0)
+	else 
 
 	{
 
