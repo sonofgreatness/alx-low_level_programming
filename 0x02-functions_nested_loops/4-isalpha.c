@@ -4,8 +4,7 @@ _isalpha(int c)
 {
 
 
-
-	if(isalpha(c))  
+	if (isalpha(c))
 
 	{
 
@@ -13,11 +12,11 @@ _isalpha(int c)
 
 	}
 
-	else 
+	else
 
 	{
 
-		return (0); 
+		return (0);
 
 	}
 
