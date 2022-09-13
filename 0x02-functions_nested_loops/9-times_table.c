@@ -20,9 +20,10 @@ times_table(void){
 
 		{
 
-			ele = i*j
+			ele = i*j;
 			putchar(ele + '0');
-			putchar(', ');
+			putchar(',');
+			putchar(' ');
                                     
 
 		}
