@@ -7,11 +7,12 @@ int i;
 d = 0; 
 while (d < 24)
 {
+	d++;
 	i = 0;
 	if(d < 10)
 	{
 		putchar ('0');
-		putchar(d); 
+		putchar(d +'0'); 
 	}
 	else if (d >= 10)
 	{
@@ -22,14 +23,14 @@ while (d < 24)
 		if (i < 10)
 		{
 			putchar('0');
-			putchar(i);  
+			putchar(i + '0');  
 		}
 		else
 		{
-			putchar(i);   
+			putchar(i + '0');   
 		}
+		putchar('\n');
 		i++;   
 	}
-	d++;
 }
 }
