@@ -5,7 +5,8 @@ int/*function to check case of a letter*/
 _abs(int n)
 
 {
-
-return abs(n);
+int a;  
+a =abs(n)
+return (a);
 
 }
