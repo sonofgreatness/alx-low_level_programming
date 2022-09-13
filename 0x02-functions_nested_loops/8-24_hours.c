@@ -13,7 +13,7 @@ while (d <24)
 	}
 	else if (d >= 10)
 	{
-		putchar(i)    
+		putchar(i);    
 	}
 	while (i < 60)
 	{
