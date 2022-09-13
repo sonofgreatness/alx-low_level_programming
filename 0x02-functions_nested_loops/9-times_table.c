@@ -22,7 +22,7 @@ _table(void){
 
 			ele = i*j;
 
-			putchar(ele +'0');
+			putchar(ele);
 
 		}
 
