@@ -9,8 +9,9 @@ main(void)
 	int i;
 	int size;
 	int st[8] = {'_', 'p', 'u', 't', 'c', 'h', 'a', 'r'};
+	
 	size = 8;
-	for (i=0; i<size; i++)
+	for (i = 0; i < size; i++)
 	{
 
 		putchar(st[i]);
