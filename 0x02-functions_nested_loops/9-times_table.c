@@ -22,8 +22,10 @@ times_table(void){
 
 			
 
-			putchar(i*j);
-
+			putchar(i*j + '0');
+			putchar(',');
+			putchar('\t');
+                                     
 		}
 
 		putchar('\n');
