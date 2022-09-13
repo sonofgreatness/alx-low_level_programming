@@ -16,6 +16,6 @@ print_last_digit(int n)
 	  }
 	  rn = n % 10;
 	  trnm = 10*rn;
-	  return (trnm);
+	  return (rn);
 
 }
