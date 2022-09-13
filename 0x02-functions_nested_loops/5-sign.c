@@ -12,20 +12,22 @@ int/*function to check case of a letter*/
 
 	{
 		return (1);
+		putchar('+');
 
-	}
+ 	}
 
 	else if (n == 0)
 	{
-		return (0); 
-
+		return (0);
+		putchar('0');
 	}
 
-	else 
+	else
 
 	{
 
 		return (-1);
+		putchar('-'); 
 	}
 
 }
