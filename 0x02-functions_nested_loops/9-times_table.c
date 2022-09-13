@@ -8,7 +8,7 @@ _table(void){
 
 	int j;
 
-	int ele;
+	
 
 
 
@@ -16,13 +16,13 @@ _table(void){
 
 	{
 
-		for(j = 0 ; j <= 0; j++)
+		for(j = 0 ; j <= 9; j++)
 
 		{
 
-			ele = i*j;
+			
 
-			putchar(ele);
+			putchar(i*j);
 
 		}
 
