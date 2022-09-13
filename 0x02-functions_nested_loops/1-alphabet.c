@@ -3,9 +3,8 @@
 /*Program */
 /*Print alphabet*/
 void
-/*function prints letter ofthe  alphebet small caps
-*/print_alphabet(void)
-
+/*function prints letter ofthe  alphebet small caps*/
+print_alphabet(void)
 {
 
 int i;
