@@ -1,4 +1,6 @@
-void jack_bauer(void) 
+#include<stdio.h>
+void/*memois */
+jack_bauer(void) 
 {
 int d;
 int i; 
@@ -8,23 +10,23 @@ while (d < 24)
 	i = 0;
 	if(d < 10)
 	{
-		_putchar ('0');
-		_putchar(d); 
+		putchar ('0');
+		putchar(d); 
 	}
 	else if (d >= 10)
 	{
-		_putchar(i);    
+		putchar(i);    
 	}
 	while (i < 60)
 	{
 		if (i < 10)
 		{
-			_putchar('0');
-			_putchar(i);  
+			putchar('0');
+			putchar(i);  
 		}
 		else
 		{
-			_putchar(i);   
+			putchar(i);   
 		}
 		i++;   
 	}
