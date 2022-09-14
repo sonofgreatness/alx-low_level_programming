@@ -9,7 +9,7 @@ times_table(void){
 	int j;
 	int ele; 
 	
-
+	char c;
 
 
 	for(i = 0; i <= 9; i++)
@@ -21,7 +21,8 @@ times_table(void){
 		{
 
 			ele = i*j;
-			putchar(ele + '0');
+			c = ele +'0';
+			putchar(c);
 			putchar(',');
 			putchar(' ');
                                     
