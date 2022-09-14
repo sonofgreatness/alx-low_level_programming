@@ -21,14 +21,14 @@ times_table(void){
 		{
 
 			ele = i*j;
-			_putchar(ele + '0');
-			_putchar(',');
-			_putchar(' ');
+			putchar(ele + '0');
+			putchar(',');
+			putchar(' ');
                                     
 
 		}
 
-		_putchar('\n');
+		putchar('\n');
 
 	}
 
