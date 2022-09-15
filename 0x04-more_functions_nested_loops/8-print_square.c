@@ -1,5 +1,5 @@
 #include<stdio.h>
-
+/*definition*/
 void/*prints #s*/
 print_square(int size)
 {
@@ -7,7 +7,8 @@ print_square(int size)
 	int i;
 
 	int j;
-
+if (size > 0)
+{
 	for (i = 0; i < size; i++)
 
 	{
@@ -23,5 +24,10 @@ print_square(int size)
 		putchar('\n');
 
 	}
+}
+if (size <= 0)
+{
+putchar('\n');
+}
 
 }
