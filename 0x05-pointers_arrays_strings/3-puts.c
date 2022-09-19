@@ -4,12 +4,10 @@
 
 void/*printa string to stdout */
 
-_puts(char*str)
+_puts(char *str)
 
 {
 
-fputs(str ,stdout);
-fputs("\n" ,stdout);
-
-
+fputs(str,stdout);
+fputs("\n",stdout);
 }
