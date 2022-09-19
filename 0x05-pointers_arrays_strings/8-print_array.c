@@ -13,7 +13,7 @@ print_array(int *a, int n)
 	int i;
 	int las;
 	las = n-1;
-	if(n == 1)
+	if(n > 0)
 	{
 	for(i = 0; i < las; i++)
 
