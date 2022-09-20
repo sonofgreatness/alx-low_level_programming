@@ -10,9 +10,9 @@ _strlen(char *s)
 
 {
 
-			const char *cc = (char *) s;
+const char *cc = (char *) s;
 
-					return (strlen(cc));
+return (strlen(cc));
 
 }
 
