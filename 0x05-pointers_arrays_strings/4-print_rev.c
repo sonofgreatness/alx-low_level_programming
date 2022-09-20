@@ -27,18 +27,11 @@ void/*printa string to stdout */
 _puts(char *str)
 
 {
-
-
-
 fputs(str, stdout);
-
-
-
 }
 /*prints reverse*/
 void/*definition*/
 print_rev(char *s)
-
 {
 
 	int i;
@@ -46,7 +39,7 @@ print_rev(char *s)
 
 	int len;
 	int lena;
-        char *t;
+				char *t;
 	len = _strlen(s);
 
 	for (i = 0; i < len; i++)
