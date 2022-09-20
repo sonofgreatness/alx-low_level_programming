@@ -33,13 +33,13 @@ len = _strlen(str);
 
 for (i = 0; i < len; i = i + 2)
 
-{
+	{
 
 		t = &str[i];
 
 		fputc(*t, stdout);
 
-}
+	}	
 
 	fputc('\n', stdout);
 
