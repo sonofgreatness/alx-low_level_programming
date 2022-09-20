@@ -19,74 +19,40 @@ _strlen(char *s)
 
 
 
-
-void puts_half(char *str)
+/*half function*/
+void/*half function*/
+puts_half(char *str)
 
 {
 
-			int len ;
-
-					int i;
-
-				int half;
-
-
-						int m;
-
-
-
-							char *t;
-
-
-
-
-
-
+	int len ;
+	int i;
+	int half;
+	char *t;
 
 							len = _strlen(str);
-
 								half = len/2;
-
-							m = (len -1)/2;
-
+						
 									if (len % 2 ==0)
-
 						{
 
 							for (i = half; i < len; i++)
 							{
-
-
 								t = &str[i];
-
 								fputc(*t, stdout);
-
 							}
+							fputc('\n', stdout);
 
 						}
 
 						else
-
 						{
 
-							for (i = half; i < len; i++)
-
+							for (i = half; i <= len; i++)
 							{
-
-
-
 								t = &str[i];
-
 								fputc(*t, stdout);
-
-
-
 							}
-
-							t = &str[m];
-
-							fputc(*t, stdout);
-
+							fputc('\n', stdout);
 						}
-
 }
