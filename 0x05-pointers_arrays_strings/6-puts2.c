@@ -10,9 +10,9 @@ _strlen(char *s)
 
 {
 
-	const char *cc = (char *) s;
+const char *cc = (char *) s;
 
-	return (strlen(cc));
+return (strlen(cc));
 
 }
 
@@ -25,11 +25,11 @@ puts2(char *str)
 
 {
 
-int len;
-int i;
-char *t;
+	int len;
+	int i;
+	char *t;
 
-len = _strlen(str);
+	len = _strlen(str);
 
 	for (i = 0; i < len; i = i + 2)
 
@@ -39,7 +39,7 @@ len = _strlen(str);
 
 			fputc(*t, stdout);
 
-		}	
+		}
 
 	fputc('\n', stdout);
 
