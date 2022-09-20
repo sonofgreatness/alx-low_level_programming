@@ -31,15 +31,15 @@ char *t;
 
 len = _strlen(str);
 
-for (i = 0; i < len; i = i + 2)
+	for (i = 0; i < len; i = i + 2)
 
-	{
+		{
 
-		t = &str[i];
+			t = &str[i];
 
-		fputc(*t, stdout);
+			fputc(*t, stdout);
 
-	}	
+		}	
 
 	fputc('\n', stdout);
 
