@@ -30,13 +30,13 @@ _puts(char *str)
 
 
 
-	fputs(str, stdout);
+fputs(str, stdout);
 
 
 
 }
 /*prints reverse*/
-void/*definition*/ 
+void/*definition*/
 print_rev(char *s)
 
 {
