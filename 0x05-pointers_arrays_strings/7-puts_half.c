@@ -30,10 +30,9 @@ puts_half(char *str)
 	int half;
 	char *t;
 
-							len = _strlen(str);
-								half = len/2;
-						
-									if (len % 2 ==0)
+	len = _strlen(str);
+	half = len/2;
+					if (len % 2 ==0)
 						{
 
 							for (i = half; i < len; i++)
@@ -48,11 +47,13 @@ puts_half(char *str)
 						else
 						{
 
-							for (i = half; i <= len; i++)
+							for (i = half; i < len; i++)
 							{
 								t = &str[i];
 								fputc(*t, stdout);
 							}
+							t =&str[(len -1)/2];
+							fputc(*t, stdout);
 							fputc('\n', stdout);
 						}
 }
