@@ -25,35 +25,35 @@ puts_half(char *str)
 
 {
 
-	int len ;
+	int len;
 	int i;
 	int half;
 	char *t;
 
 	len = _strlen(str);
-	half = len/2;
-					if (len % 2 ==0)
-						{
+	half = len / 2;
+	if (len % 2 ==0)
+	{
 
-							for (i = half; i < len; i++)
-							{
-								t = &str[i];
-								fputc(*t, stdout);
-							}
-							fputc('\n', stdout);
+		for (i = half; i < len; i++)
+			{
+				t = &str[i];
+				fputc(*t, stdout);
+			}
+			fputc('\n', stdout);
 
-						}
+	}
 
-						else
-						{
+	else
+	{
 
-							for (i = half; i < len; i++)
-							{
-								t = &str[i];
-								fputc(*t, stdout);
-							}
-							t =&str[(len -1)/2];
-							fputc(*t, stdout);
-							fputc('\n', stdout);
-						}
+		for (i = half; i < len; i++)
+			{
+				t = &str[i];
+				fputc(*t, stdout);
+			}
+			t = &str[(len -1)/2];
+			fputc(*t, stdout);
+			fputc('\n', stdout);
+	}
 }
