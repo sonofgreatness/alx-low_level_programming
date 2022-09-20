@@ -32,28 +32,28 @@ puts_half(char *str)
 
 	len = _strlen(str);
 	half = len / 2;
-	if (len % 2 ==0)
-	{
+		if (len % 2 == 0)
+		{
 
-		for (i = half; i < len; i++)
-			{
-				t = &str[i];
+			for (i = half; i < len; i++)
+				{
+					t = &str[i];
+					fputc(*t, stdout);
+				}
+				fputc('\n', stdout);
+
+		}
+
+		else
+		{
+
+			for (i = half; i < len; i++)
+				{
+					t = &str[i];
+					fputc(*t, stdout);
+				}
+				t = &str[(len - 1) / 2];
 				fputc(*t, stdout);
-			}
-			fputc('\n', stdout);
-
-	}
-
-	else
-	{
-
-		for (i = half; i < len; i++)
-			{
-				t = &str[i];
-				fputc(*t, stdout);
-			}
-			t = &str[(len -1)/2];
-			fputc(*t, stdout);
-			fputc('\n', stdout);
-	}
+				fputc('\n', stdout);
+		}
 }
