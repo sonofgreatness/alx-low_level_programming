@@ -1,4 +1,11 @@
 #include<string.h>
+/*returns lenght of  string*/
+int/*get length of string*/
+_strlen(char *s)
+{
+const char *cc = (char *) s;
+return (strlen(cc));
+}
 /*add 2 strings */
 char
 /*function definition*/
@@ -28,7 +35,7 @@ char
 
 	{
 
-		for (i = 0 ; i <= n; i++)
+		for (i = 0 ; i < n; i++)
 
 		{
 
@@ -36,9 +43,9 @@ char
 
 			{
 
-						dest[len + i] = src[i];
+				dest[len + i] = src[i];
 
-								newlen = len + i;
+				newlen = len + i;
 
 			}
 
