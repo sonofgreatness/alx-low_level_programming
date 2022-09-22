@@ -1,4 +1,4 @@
-#include<string.h
+#include<string.h>
 /*returns lenght of  string*/
 int/*get length of string*/
 _strlen(char *s)
