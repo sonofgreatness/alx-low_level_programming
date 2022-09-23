@@ -20,7 +20,7 @@ char
 	int len;
 
 
-	int newlen ;
+	int newlen;
 
 
 
@@ -35,7 +35,7 @@ char
 
 	{
 
-		for (i = 0 ; i < n; i++)
+		for (i = 0; i < n; i++)
 
 		{
 
