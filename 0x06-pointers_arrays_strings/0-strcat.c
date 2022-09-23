@@ -5,14 +5,12 @@ int/*get length of string*/
 
 _strlen(char *s)
 {
-
 const char *cc = (char *) s;
 return (strlen(cc));
-
 }
 /*function add strings */
 char/*functionstart*/
-*_strcat(char *dest, char *src)
+* _strcat(char *dest, char *src)
 
 {
 
@@ -25,11 +23,11 @@ char/*functionstart*/
 	lensrc = strlen(src);
 
 
-	for(i = 0; i < lensrc && src[i] != '\0'; i++)
+	for (i = 0; i < lensrc && src[i] != '\0'; i++)
 
 	{
 
-		dest[len + i] =src[i];
+		dest[len + i] = src[i];
 		newlen = len + i;
 
 	}
