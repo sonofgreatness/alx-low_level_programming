@@ -1,19 +1,14 @@
 #include<string.h>
-
 /*1337 encoder*/
-
 char/*function definition*/
-
-*leet(char *x)
-
+* leet(char *x)
 {
-
 	int i;
 	int j;
 	int len;
 	char *p;
 	char cchar;
-	char  rpl[5];
+	char	rpl[5];
 	char lcchar;
 	char rl[5];
 
@@ -28,10 +23,10 @@ char/*function definition*/
 	*rpl = '4';
 	*(rpl + 1) = '3';
 	*(rpl + 2) = '0';
-	*(rpl +3) = '7';
-	*(rpl +4) = '1';
+	*(rpl + 3) = '7';
+	*(rpl + 4) = '1';
 
-	for(i = 0; i < 5; i++)
+	for (i = 0; i < 5; i++)
 
 	{
 
@@ -39,7 +34,7 @@ char/*function definition*/
 
 		lcchar = cchar + 32;
 
-		for(j = 0; j < len; j++)
+		for (j = 0; j < len; j++)
 
 		{
 
@@ -51,12 +46,12 @@ char/*function definition*/
 
 			{
 
-				*(x+j) = rpl[i];
+				*(x + j) = rpl[i];
 
 			}
 
 		}
 
 	}
- return (x);
+return (x);
 }
