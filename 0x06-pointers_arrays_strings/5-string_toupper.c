@@ -15,7 +15,7 @@ _strlen(char *s)
 }
 /*turns string to all upper*/
 char/*function definition*/
-*string_toupper(char *x)
+* string_toupper(char *x)
 
 {
 
@@ -32,7 +32,7 @@ char/*function definition*/
 
 		p = &x[i];
 
-		if(*p >= 97 && *p <= 122)
+		if (*p >= 97 && *p <= 122)
 
 		{
 			x[i] = *p - 32;
@@ -47,6 +47,6 @@ char/*function definition*/
 	}
 
 
-	return(x);
+	return (x);
 
 }
