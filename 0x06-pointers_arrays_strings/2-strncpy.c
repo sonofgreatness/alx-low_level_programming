@@ -9,39 +9,36 @@ return (strlen(cc));
 
 /*copies string*/
 char/*function definition*/
-*_strncpy(char *dest, char *src, int n)
+* _strncpy(char *dest, char *src, int n)
 
 {
+	int i;
+	char c;
 
+	c = 't';
 
-int i;
-char c;
+for (i = 0; i < n ; i++)
 
-c = 't';
-
-	for (i = 0; i < n ; i++)
+{
+	if (src[i] != '\0')
 
 	{
 
-		if (src[i] != '\0')
-
-		{
-
-			dest[i] = src[i];
-
-		}
-
-		if(c == 's')
-		{
-					dest[i] ='\0';
-		}
-
-		if (src[i] == '\0')
-		{
-			dest[i] = src[i];
-			c = 's';
-		}
+		dest[i] = src[i];
 
 	}
+
+	if (c == 's')
+	{
+		dest[i] = '\0';
+	}
+
+	if (src[i] == '\0')
+	{
+		dest[i] = src[i];
+		c = 's';
+	}
+
+}
 	return (dest);
 }
