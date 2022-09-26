@@ -9,17 +9,14 @@ return (strlen(cc));
 /*add 2 strings */
 char
 /*function definition*/
-*_strncat(char *dest, char *src, int n)
+* _strncat(char *dest, char *src, int n)
 
 {
 
 
 
 	int i;
-
 	int len;
-
-
 	int newlen;
 
 
@@ -31,46 +28,46 @@ char
 
 
 
-	if (n > 0)
+if (n > 0)
+
+{
+
+	for (i = 0; i < n; i++)
 
 	{
 
-		for (i = 0; i < n; i++)
+		if (src[i] != '\0')
 
 		{
 
-			if (src[i] != '\0')
+			dest[len + i] = src[i];
 
-			{
-
-				dest[len + i] = src[i];
-
-				newlen = len + i;
-
-			}
-
-			else
-
-			{
-
-				i = n;
-
-			}
+			newlen = len + i;
 
 		}
+
+		else
+
+		{
+
+			i = n;
+
+		}
+
+	}
 
 		dest[newlen + 1] = '\0';
 
 		return (dest);
 
-	}
+}
 
-	else
+else
 
-	{
+{
 
-		return (dest);
+	return (dest);
 
-	}
+}
 
 }

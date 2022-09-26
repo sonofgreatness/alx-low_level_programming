@@ -1,36 +1,137 @@
 #include<stdio.h>
-void/*prints times 9 table */
+
+#include<math.h>
+
+void/*prints times 9 table */                                                                                  
+
 times_table(void){
 
+	    int i;                                                                                                       
 
+	            int j;
 
-	int i;
+		            int ele;                                                                                               
 
-	int j;
-	int ele; 
-	
-	char c;
+			    int sz;                                                                                                         
 
+			    for(i = 0; i <= 9; i++)                                                                                                              
 
-	for(i = 0; i <= 9; i++)
+			    {                                                                                                      
+
+				    for(j = 0 ; j <= 9; j++)                                                                       
+
+				    {                                                                                              
+
+					    ele = i*j;
+
+					    sz = getNumsize(ele);
+
+					    char c[size];
+
+					    c = maker(ele);
+
+					    for (int f = 0; f < sz ; f++) 
+
+					    {                                                                                                                                                      
+
+						    putchar(c[i] +'0');                                                                            
+
+						    putchar(',');                                                                          
+
+						    putchar(' '); 
+
+					    }
+
+				    }                                                                                              
+
+				    putchar('\n');                                                                                                             
+
+			    }
+
+}                                                                                                      
+
+                                                                                                               
+
+int/*returns length of num*/
+
+ getNumsize(int n)
+
+{
+
+	int temp;
+
+	int length;
+
+	int tempM;
+
+	int size;  
+
+	if (n == 0) {
+
+		  length = 1;
+
+	} else {    
+
+		  length = log10(fabs(num)) + 1;
+
+		    if (num < 0) length++;
+
+	}
+
+	return (length); 
+
+}
+
+int
+
+/*returns digit at index*/ 
+
+getNumberatPos(pos, nm)
+
+{
+
+	int size = getNumsize(nm); 
+
+	if (size == 1 || pos == size)
 
 	{
 
-		for(j = 0 ; j <= 9; j++)
+		return (nm % 10);     
 
-		{
+	}
 
-			ele = i*j;
-			c = ele +'0';
-			putchar(c);
-			putchar(',');
-			putchar(' ');
-                                    
+	else if (pos < size)
 
-		}
+	{
 
-		putchar('\n');
+		 temp = 10^(pos-1);
+
+		  tempM = nm / temp; 
+
+		   return (tempM % 10); 
 
 	}
 
 }
+
+char[] maker (int x )
+
+{
+
+	int size = getNumsize(x); 
+
+	char ch[size]; 
+
+	for(i = 0; i < size; i++)
+
+	{
+
+		ch[i]=getNumberatPos(i);     
+
+	}
+
+	return (ch) ; 
+
+}
+
+

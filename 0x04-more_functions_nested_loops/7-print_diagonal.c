@@ -1,23 +1,24 @@
 #include<stdio.h>
-void/*print  n slashes*/ 
+/*program definition*/
+void/*print  n slashes*/
 print_diagonal(int n)
 {
 
-	int i; 
+	int i;
 	int j;
 
 	if (n > 0)
 
 	{
-		for(i = 0; i < n; i++)		
+		for(i = 0; i < n; i++)
 			{	if (i != 0)
 				{	for(j = 0; j < i;j++)
-					{	
+					{
 						putchar(' ');
-					}	
-				
+					}
+
 				}
-				putchar('\\');				
+				putchar('\\');
 				putchar('\n');
 			}
 	}
@@ -28,6 +29,6 @@ print_diagonal(int n)
 
 		putchar('\n');
 
-	}   
+	}
 
 }

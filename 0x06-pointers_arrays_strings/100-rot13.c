@@ -10,7 +10,7 @@ char/*function definition*/
 	int temp;
 	char *p;
 
-	len = strlen(x); 
+	len = strlen(x);
 
 	for (i = 0; i < len; i++)
 
