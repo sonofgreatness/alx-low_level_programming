@@ -1,3 +1,4 @@
+#include<stdio.h>
 /*program  to print arguments*/
 int /*entry point of program*/
 main(int argc, char *argv[])
