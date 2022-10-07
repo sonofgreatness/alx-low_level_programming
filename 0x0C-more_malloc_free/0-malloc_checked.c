@@ -1,3 +1,5 @@
+#include <stddef.h> 
+#include <stdlib.h>  
 /*fn  that allocates memory using malloc. */
 void/*definition of function*/
 * malloc_checked(unsigned int b)
