@@ -1,5 +1,5 @@
 #include "dog.h"
-/*returns a dog_t variable inituialized*/
+/*returns a dog_t variable initialized*/
 dog_t
 /*function definition*/
 *new_dog(char *name, float age, char *owner)
@@ -16,7 +16,7 @@ dog_t
 
 	dog.name = cname;
 	dog.owner = cowner;
-	og.age = age;
+	dog.age = age;
 	ptr = &dog;
 
 
