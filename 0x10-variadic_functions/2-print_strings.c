@@ -17,12 +17,26 @@ print_strings(const char *separator, const unsigned int n, ...)
 
 		if (print == NULL)
 		{
-			printf("nil%c ", *separator);
+			if (separator == NULL)
+			{
+				printf("nil");
+			}
+			else
+			{
+				printf("nil%c ", *separator);
+			}
 			va_end(list);
 		}
 		else
 		{
-			printf("%s%c ", print, *separator);
+			if (separator == NULL)
+			{
+				printf("%s", print);
+			}
+			else
+			{
+				printf("%s%c ", print, *separator);
+			}
 			va_end(list);
 		}
 
