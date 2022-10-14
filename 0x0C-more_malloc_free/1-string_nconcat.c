@@ -128,6 +128,7 @@ char/*definuition*/
 
 			}
 
+		
 			rs[i2 + n] = '\0';
 
 			return (rs);
