@@ -5,7 +5,7 @@
  *
  */
 
-void _attribute_ ((constructor)) first ()
+void __attribute__ ((constructor)) first ()
 {
 printf("You're beat and yet you must allow"); 
 printf(",\nI bore my house on mt back!\n");
