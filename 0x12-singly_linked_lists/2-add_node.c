@@ -12,10 +12,10 @@ new_list = malloc(sizeof(list_t));
 if (new_list == NULL)/*failed to initialize*/
 	return (NULL);
 new_list->str = strdup(str);
-for (size = 0;str[size];size++) /*incrementing variaable using a loop*/
+for (size = 0;str[size];size++) /*incrementing variable using a loop*/
 	; 
 new_list->len =size; 
-new_list-> next = *head;
+new_list->next = *head;
 *head = new_list;
 return (*head);
 }
