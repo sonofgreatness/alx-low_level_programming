@@ -1,24 +1,23 @@
 #include "lists.h"
 /*****PRINT LIST****/
-/* print_list - prints all the elements of a list
+/*
+*  print_list - prints all the elements of a list
 * @list_h -> LIST
 */
 
 size_t list_len(const list_t *h)
 {
 	int count;
+
 	count = 0;
-if ((*h).str == NULL)
-{
 
-	printf("[0] (nil)");
-	count++;
-}
-else
-{
+	while (h != NULL)
+	{
 
-	count = sizeof(*h) / sizeof(list_t);
+	h = h->next;
 	count++;
-}
-return ((size_t)count);
+
+	}
+
+return (count);
 }
