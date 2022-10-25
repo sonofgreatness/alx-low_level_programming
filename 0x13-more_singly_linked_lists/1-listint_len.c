@@ -18,7 +18,7 @@ while (h != NULL)
 	}
 	else
 		h = h->next;
-		size++;
+size++;
 }
 return (size);
 }
