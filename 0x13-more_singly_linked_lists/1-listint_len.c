@@ -1,5 +1,4 @@
 #include "lists.h"
-#include <stdlib.h>
 /*
  * listint_len -> returns number of elements inlist
  * @h -> argument (of type : pointer  to a struct)
