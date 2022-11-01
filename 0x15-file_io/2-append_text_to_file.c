@@ -8,12 +8,12 @@
 */
 int
 /*FunctionDefinition*/
-append_text_to_file(constchar *filename, char *text_content)
+append_text_to_file(const char *filename, char *text_content)
 {
 
-intfd;
-intapdr;
-inti;
+int fd;
+int apdr;
+int i;
 
 if (filename == NULL)
 	return (-1);
