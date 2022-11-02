@@ -21,7 +21,7 @@ if (filename == NULL)
 fd = open(filename, O_WRONLY | O_APPEND, 0664);
 
 if (fd == -1)
-return (-100);
+return (-1);
 
 for (i = 0; text_content[i] != '\0'; i++)
 	;
