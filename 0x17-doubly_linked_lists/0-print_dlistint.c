@@ -14,7 +14,9 @@ sum_of_nodes++;
 while (h->next != NULL)
 {
 sum_of_nodes++;
+printf("%d\n", h->n);
 h = h->next;
+printf("%d\n", h->n);
 }
 
 return (sum_of_nodes);
