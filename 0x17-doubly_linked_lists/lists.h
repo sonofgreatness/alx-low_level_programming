@@ -1,7 +1,7 @@
 #ifndef LISTS_H
 #define LISTS_H
 #include <stddef.h>
-
+#include <stdio.h>
 /*
 *Data structure to handle
 *doubly linked list
